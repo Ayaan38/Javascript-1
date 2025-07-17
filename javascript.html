@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Javascript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 id="myId"></h1>
+        <p id="myPara"></p>
+
+        <script>
+            document.getElementById("myId").innerHTML = "Javascript!";
+            document.getElementById("myPara").innerHTML = "This is a paragraph.";
+        </script>
+        <h1>Javascript Variables</h1>
+        <p>Sum of two numbers</p>
+        <p id="result"></p>
+        <script>
+            var num1 = 7;
+            var num2 = 3;
+            var sum = num1 + num2;
+            document.getElementById("result").innerHTML = "The sum is: " + sum;
+        </script>
+        <h2>Javascript Statements</h2>
+        <p>Sum using statements</p>
+        <p id="statementResult"></p>
+        <script>
+            var x = 5;
+            var y = 10;
+            var z = x + y;
+            document.getElementById("statementResult").innerHTML = "The sum is: " + z+ "";
+        </script>
+        <h2> Operator</h2>
+	​<p id="d"></p>
+  ​<p id="d1"></p>
+  ​<p id="d2"></p>
+  ​<p id="d3"></p>
+	<p id="d4"></p>
+	 ​<script>
+		<!--Addition-->
+    var x = 5;
+    var y = 2;
+    var z = x + y;
+     var a = x - y;
+      var b = x * y;
+       var c = x / y;
+	document.getElementById("d").innerHTML = "The answer is: " + z+ "";
+  document.getElementById("d1").innerHTML = "The answer is: " + a+ "";
+  document.getElementById("d2").innerHTML = "The answer is: " + b+ "";
+  document.getElementById("d3").innerHTML = "The answer is: " + c+ "";
+	x += 4;
+    document.getElementById("d4").innerHTML = x;
+	</script>
+    </body>
+</html>
